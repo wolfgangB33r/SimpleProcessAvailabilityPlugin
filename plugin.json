@@ -1,0 +1,18 @@
+{
+  "name": "custom.python.av_plugin",
+  "version": "1.3",
+  "type": "python",
+  "entity": "PROCESS_GROUP_INSTANCE",
+  "processTypes": [0, 4, 5],
+  "source": {
+    "package": "av_plugin",
+    "className": "AvPlugin",
+    "install_requires": [],
+    "activation": "Singleton"
+  },
+  "metrics": [
+  ],
+   "configUI": {
+        "displayName": "Simple Process Availability Plugin"
+    }
+}
